@@ -6,7 +6,7 @@ class Post extends Component {
     const post = this.props.post;
     return (
       <li key={post.id}>
-        {this.props.post.id}
+        {this.props.post.title}
       </li>
     );
   }
