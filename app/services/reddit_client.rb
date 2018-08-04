@@ -15,6 +15,7 @@ class RedditClient
       content = c["data"]
       {
         id: content["id"],
+        title: content["title"],
         text: content["selftext"],
         html: content["selftext_html"]
       }
