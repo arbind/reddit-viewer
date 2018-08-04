@@ -10,8 +10,7 @@ explore react + rails
 git clone git@github.com:arbind/reddit-viewer.git
 cd reddit-viewer
 bundle install
-cd client
-npm install
+yarn build
 ```
 
 ## RUN LOCALLY
