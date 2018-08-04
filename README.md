@@ -5,6 +5,19 @@ explore react + rails
 - Rails
 - React
 
+## Install
+```
+git clone git@github.com:arbind/reddit-viewer.git
+cd reddit-viewer
+bundle install
+cd client
+npm install
+```
+
+## RUN LOCALLY
+```
+foreman start -f Procfile.dev
+```
 
 ## API ENDPOINTS
 POST /members
