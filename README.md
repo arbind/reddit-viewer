@@ -1,5 +1,14 @@
 # reddit-viewer
 explore react + rails
+## Tech Stack
+- MongoDB
+- Rails
+- React
+
+
+## API ENDPOINTS
+POST /members
+GET /members/:id
 
 
 ## Deployment
