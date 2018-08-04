@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
-  resources :members
+
+  scope '/api/v1' do
+    resources :members
+  end
 
 end
