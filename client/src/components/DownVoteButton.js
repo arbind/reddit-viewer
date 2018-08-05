@@ -44,7 +44,7 @@ class DownVoteButton extends Component {
   }
 
   renderAddADownVoteButton() {
-    return <button onClick={this.evToggleDownVote}>Add an Down vote</button>;
+    return <button onClick={this.evToggleDownVote}>Add a Down vote</button>;
   }
 
   renderRemoveDownVoteButton() {

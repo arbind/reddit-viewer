@@ -20,7 +20,7 @@ class PostList extends Component {
     );
 
     return (
-      <ul>{posts}</ul>
+      <div className="row">{posts}</div>
     );
   }
 }

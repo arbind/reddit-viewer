@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import PostListingsPage from './pages/PostListingsPage'
 import PostDetailsPage from './pages/PostDetailsPage'
 import NotFound from './pages/NotFound'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 class App extends Component {
   render () {
