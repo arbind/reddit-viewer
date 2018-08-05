@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowCircleUp, faArrowUp } from '@fortawesome/free-solid-svg-icons'
 
 class UpVoteButton extends Component {
 
@@ -38,11 +40,11 @@ class UpVoteButton extends Component {
   }
 
   renderAddAnUpVoteButton() {
-    return <button onClick={this.evToggleUpVote}>Add an Up vote</button>;
+    return <FontAwesomeIcon icon={faArrowUp} onClick={this.evToggleUpVote}/>
   }
 
   renderRemoveUpVoteButton() {
-    return <button onClick={this.evToggleUpVote}>Remove Up Vote</button>;
+    return <FontAwesomeIcon icon={faArrowCircleUp} onClick={this.evToggleUpVote}/>
   }
 
   render() {

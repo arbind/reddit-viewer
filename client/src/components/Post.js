@@ -25,17 +25,17 @@ class Post extends Component {
         <div className="card">
           <div className="card-body">
             <h5 className="card-title">
+              <span>
+                <UpVoteButton post={post}/>
+                <br/>
+                <DownVoteButton post={post}/>
+              </span>
               <Link to={detailsLink}>{post.title}</Link>
             </h5>
             <h6 className="card-subtitle mb-2 text-muted">
               Card subtitle
             </h6>
             <ReactMarkdown source={post.text}/>
-            <div className="card-footer">
-              <UpVoteButton post={post}/>
-              count
-              <DownVoteButton post={post}/>
-            </div>
           </div>
         </div>
       </div>
